@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Ripcord_Ly2.Web", "src\Ripcord_Ly2\Ripcord_Ly2.Web.xproj", "{73CB4765-9D28-4F80-B79E-57C76015988F}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Ripcord_Ly2.Tool", "src\Ripcord_Ly2.Tool\Ripcord_Ly2.Tool.xproj", "{EB939FB8-EE8A-4039-95C6-05A16A86B1C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,11 +24,16 @@ Global
 		{73CB4765-9D28-4F80-B79E-57C76015988F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73CB4765-9D28-4F80-B79E-57C76015988F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73CB4765-9D28-4F80-B79E-57C76015988F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB939FB8-EE8A-4039-95C6-05A16A86B1C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB939FB8-EE8A-4039-95C6-05A16A86B1C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB939FB8-EE8A-4039-95C6-05A16A86B1C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB939FB8-EE8A-4039-95C6-05A16A86B1C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{73CB4765-9D28-4F80-B79E-57C76015988F} = {25916566-36C6-438D-9552-87C233B70F8A}
+		{EB939FB8-EE8A-4039-95C6-05A16A86B1C1} = {25916566-36C6-438D-9552-87C233B70F8A}
 	EndGlobalSection
 EndGlobal
