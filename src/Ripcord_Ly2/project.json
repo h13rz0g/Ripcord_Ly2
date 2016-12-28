@@ -1,14 +1,11 @@
-﻿{
+{
   "dependencies": {
-    "Microsoft.NETCore.App": {
-      "version": "1.0.0",
-      "type": "platform"
-    },
-    "Microsoft.AspNetCore.Diagnostics": "1.0.0",
-    
-    "Microsoft.AspNetCore.Server.IISIntegration": "1.0.0",
-    "Microsoft.AspNetCore.Server.Kestrel": "1.0.0",
-    "Microsoft.Extensions.Logging.Console": "1.0.0"
+    "Microsoft.AspNetCore.Diagnostics": "1.1.0",
+    "Microsoft.AspNetCore.Server.IISIntegration": "1.1.0",
+    "Microsoft.AspNetCore.Server.Kestrel": "1.1.0",
+    "Microsoft.Extensions.Logging.Console": "1.1.0",
+    "Microsoft.NETCore.App": "1.1.0",
+    "Ripcord_Ly2.Hosting": "1.0.0-*"
   },
 
   "tools": {
@@ -18,10 +15,18 @@
   "frameworks": {
     "netcoreapp1.0": {
       "imports": [
-        "dotnet5.6",
-        "portable-net45+win8"
+        "dnxcore50",
+        "portable-net451+win8"
       ]
     }
+  },
+  "runtimes": {
+    "win10-x64": {},
+    "win8-x64": {}
+  },
+  "Microsoft.NETCore.App": {
+    "version": "1.0.1",
+    "type": "platform"
   },
 
   "buildOptions": {
@@ -40,9 +45,9 @@
       "wwwroot",
       "web.config"
     ]
-  },
-
-  "scripts": {
-    "postpublish": [ "dotnet publish-iis --publish-folder %publish:OutputPath% --framework %publish:FullTargetFramework%" ]
   }
+
+  //"scripts": {
+  //  "postpublish": [ "dotnet publish-iis --publish-folder %publish:OutputPath% --framework %publish:FullTargetFramework%" ]
+  //}
 }
